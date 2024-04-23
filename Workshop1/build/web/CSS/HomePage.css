@@ -1,0 +1,22 @@
+.head {
+  display: flex; /* Sử dụng flexbox để các phần tử trong .head được căn chỉnh trên cùng 1 hàng */
+  align-items: center; 
+  background-color: aquamarine;
+}
+
+
+.brand, .navigation {
+  display: flex; /* Sử dụng flexbox cho cả .brand và .navigation */
+  align-items: center; /* Canh giữa các phần tử trong .navigation theo chiều dọc */
+}   
+
+.navigation p {
+  margin: 0; /* Loại bỏ margin mặc định của các phần tử p */
+  padding: 0 15px; /* Thêm padding để tạo khoảng cách giữa các liên kết */
+}
+
+
+
+.table1{
+    
+}
